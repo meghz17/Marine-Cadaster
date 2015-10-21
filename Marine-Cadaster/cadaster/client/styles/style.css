@@ -1,0 +1,108 @@
+#checkbox-container{
+	border-radius: 10px;
+	padding: 10px;
+    margin-right: 10px
+}
+
+#compute-div > *{
+	
+	margin: 8px
+}
+
+body{
+    //background-attachment:fixed;
+    background-repeat: repeat;
+    //background-size: cover;
+}
+
+.navbar {
+   background-color: transparent;
+   background: transparent;
+   border-color: transparent;
+}
+
+.navbar li { color: #000 } 
+
+.panel {
+	
+	background-color: transparent;
+   background: transparent;
+   border-color: transparent;
+	
+}
+
+.countryCheckbox{
+	
+	margin: 10px;
+	white-space: nowrap;
+  	overflow: hidden;
+  	text-overflow: ellipsis;
+}
+
+.countryCheckbox input{
+	
+	margin-right:5px;
+}
+
+.cardWrapper{
+  width:256px;
+  height:400px;
+  position:relative;
+  /*background-color:#333;*/
+  float:left;
+  margin-right:10px;
+  cursor:pointer;
+  -webkit-font-smoothing:antialiased;
+}
+
+.cardFace{
+  position:absolute;
+  width:256px;
+  height:400px;
+  overflow:hidden;
+}
+
+.front{
+  background-color:#333; background-color:#333
+}
+
+.back{
+  background-color:#000; 
+}
+
+
+
+.cardFace h1{
+  margin:0px;
+  font-size:30px;
+  padding:10px 0px 10px 10px;
+  border-bottom:solid 6px #aaa;
+  border-top:solid 6px #aaa;
+  background-color:black;
+  color:white;
+}
+
+.computeTd{
+	width: 30%;
+}
+
+td {
+  padding-top:7px;
+  padding-bottom:7px;
+  padding-right:7px;   
+}
+
+td:first-child {
+  padding-left:7px;
+  padding-right:0;
+}
+
+.travel{
+	
+}
+
+.travelLabel{
+	
+}
+
+
